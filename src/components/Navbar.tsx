@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to={'/'} className="px-4 py-2 rounded-md hover:cursor-pointer hover:underline transition-all text-xl text-white font-bold">API-Explorer</Link>
       </div>
       <div className="flex-none">
-        <Link to={`/${randomNumber(1, 70)}`}>
+        <Link to={`/${randomNumber(1, 300)}`}>
           <Button>Random Character</Button>
         </Link>
       </div>
