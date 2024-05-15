@@ -19,7 +19,11 @@ export const List = ({ page }: ListProps) => {
   });
 
   if (isLoading) {
-    return <span className="loading loading-spinner loading-lg" />;
+    return (
+      <div className="flex justify-center items-center h-screen w-full">
+        <span className="loading loading-spinner loading-lg" />
+      </div>
+    );
   }
 
   if (isError) {

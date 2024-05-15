@@ -16,12 +16,10 @@ export const Card = ({ item }: CardProps) => {
   return (
     <div className="w-1/3 px-2 mb-4">
       <Link to={`/${id}`}>
-        <div className="w-full card bg-base-300 shadow-xl">
-          <figure>
-            <img src={image} alt={name} />
-          </figure>
+        <div className="w-full card bg-base-300 shadow-xl re">
+            <img src={image} alt={name} className="transtion-transform group-hover:scale-110 duration-200 rounded-md"/>
           <div className="card-body">
-            <h2 className="card-title">{name}</h2>
+            <h3 className="card-title text-xl font-bold mb-2">{name}</h3>
             <p>
               {status} - {species}
             </p>

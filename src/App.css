@@ -4,12 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-body {
-  background: url("./assets/wallpaper.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 .logo {
   height: 6em;
   padding: 1.5em;

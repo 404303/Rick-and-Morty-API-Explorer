@@ -2,6 +2,7 @@ import { useState } from "react";
 import List from "../components/List.tsx";
 import Navbar from "../components/Navbar.tsx";
 import Button from "../components/Button.tsx";
+import Footer from "../components/Footer.tsx";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Button className="right-0 absolute" onClick={() => setPage(page+1)}>Next</Button>
       </div>
       <div className="bottom-0">
+        <Footer/>
       </div>
     </>
   );

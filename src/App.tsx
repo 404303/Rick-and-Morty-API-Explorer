@@ -24,7 +24,6 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <div className="flex flex-col justify-between min-h-screen">
             <RouterProvider router={router} />
-          
         </div>
       </QueryClientProvider>
     </>
